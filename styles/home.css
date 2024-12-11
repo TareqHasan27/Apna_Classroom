@@ -1,0 +1,144 @@
+/* Home page */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+  }
+  
+  .logo {
+    position: fixed;
+    top: 5%;
+    left: 9%;
+    display :flex;
+    font-size: 30px;
+    font-weight: bold;
+    color: #66696e;
+  }
+  
+  .logout-btn {
+    position: fixed;
+    width: 80px;
+    height: 40px;
+    top:  5%;
+    right: 4%;
+    font-size: 14px;
+    color: white;
+    border: none;
+    background-color: #0f5bcd;
+  }
+  
+  .logout-btn:hover {
+    background-color: #26272b;
+  }
+  
+  .menu-btn {
+    width: 30px;
+    position: fixed;
+    top: 5%;
+    left: 4%;;
+    font-size: 25px;
+    color: #dbe6f1;
+    padding: 0;
+    border: none;
+    background-color: #0f5bcd;   
+  }
+
+  .menu-btn:hover {
+    background-color: #26272b;
+  }
+
+  .icon-container img {
+    position: fixed;
+    top: 5%;
+    left: 6.5%;
+    width: 40px;
+    border-radius: 50%;
+  }
+
+  .add-btn {
+    position: fixed;
+    top: 5%;
+    right: 10%;
+    font-size: 20px;
+    color: white;
+    background-color: #34a853;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: none;
+  }
+  
+  .add-btn:hover {
+    background-color: #2c8a3d;
+  }
+  
+  /* Main Content */
+  .main-content {
+    text-align: center;
+  }
+  
+  h1 {
+    color: #545557;
+    position: fixed;
+    top: 50%;
+    left: 40%;
+  }
+  
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal.hidden {
+    display: none;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+  }
+  
+  .close-btn {
+    float: right;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .option-btn {
+    margin: 10px 0;
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .option-btn:hover {
+    background-color: #3367d6;
+  }
+  

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="styles/home.css">
+</head>
+<body>
+  <div class="container">
+    <header class="navbar">
+      <div class="logo">Apna Classroom</div>
+      <nav>
+        <button id="logout-btn" class="logout-btn">Logout</button>
+        <button id="menu-btn" class="menu-btn">☰</button>
+        <button id="add-class-btn" class="add-btn">+</button>
+        <div class="icon-container">
+          <img src="images/classroom-icon.png" alt=" ">
+        </div>
+      </nav>
+    </header>
+    <main class="main-content">
+      <h1>Create or join your first class!</h1>
+    </main>
+  </div>
+
+  <!-- Modal for Create/Join Class -->
+  <div id="class-modal" class="modal hidden">
+    <div class="modal-content">
+      <button id="close-modal" class="close-btn">&times;</button>
+      <h3>Select an option</h3>
+      <button id="create-class-btn" class="option-btn">Create Class</button>
+      <button id="join-class-btn" class="option-btn">Join Class</button>
+    </div>
+  </div>
+
+  <script src="home.js"></script>
+</body>
+</html>
